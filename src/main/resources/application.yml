@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://smart_salon:smart_salon@cluster0.hbmnobk.mongodb.net/?retryWrites=true&w=majority
+      database: smart_salon
