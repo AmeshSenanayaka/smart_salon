@@ -3,3 +3,27 @@ spring:
     mongodb:
       uri: mongodb+srv://smart_salon:smart_salon@cluster0.hbmnobk.mongodb.net/?retryWrites=true&w=majority
       database: smart_salon
+
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIASZ3BPRUN5MILA5OC
+      secret-key: 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
+    stack:
+      auto: false
+    region:
+      static: us-east-1
+
+application:
+  bucket:
+    name: ssalon
+
+
+
